@@ -1,0 +1,5 @@
+INDEX VERSION 1.131
+C:\Users\ogounaya\Downloads\EcomProjet\Signinup\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2925820755.index
+\lu-auchan-gamme-api\src\main\java
+C:\Users\ogounaya\Downloads\EcomProjet\Signinup\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3081222486.index
+\lu-auchan-gamme-api\src\main\java

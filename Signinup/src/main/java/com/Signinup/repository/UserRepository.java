@@ -17,3 +17,7 @@ import com.Signinup.model.User;
 public interface UserRepository extends JpaRepository<User, Long>{
 	User findByEmail(String email);
 }
+
+/*
+ to access the User details from db 
+ */

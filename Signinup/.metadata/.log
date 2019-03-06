@@ -1,0 +1,1951 @@
+!SESSION 2019-03-05 15:45:16.849 -----------------------------------------------
+eclipse.buildId=4.10.0.I20181206-0815
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+This is a continuation of log file C:\Users\ogounaya\Downloads\EcomProjet\Signinup\.metadata\.bak_6.log
+Created Time: 2019-03-05 16:02:51.257
+
+!ENTRY org.springframework.ide.eclipse.core 4 0 2019-03-05 16:02:51.258
+!MESSAGE Error getting Java type 'lu.auchan.gamme.api.config.CheckStoreAndFormatAspect'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/lu-auchan-gamme-api)[368]: java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:197)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2019-03-05 16:02:51.258
+!MESSAGE Resource '/lu-auchan-gamme-api' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:197)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.core 4 0 2019-03-05 16:02:51.260
+!MESSAGE Error getting Java type 'org.springframework.security.saml.metadata.ExtendedMetadataDelegate'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/lu-auchan-gamme-api)[368]: java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:196)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2019-03-05 16:02:51.260
+!MESSAGE Resource '/lu-auchan-gamme-api' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:196)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.core 4 0 2019-03-05 16:02:51.261
+!MESSAGE Error getting Java type 'lu.auchan.gamme.api.config.CheckStoreAndFormatAspect'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/lu-auchan-gamme-api)[368]: java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:197)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2019-03-05 16:02:51.262
+!MESSAGE Resource '/lu-auchan-gamme-api' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:197)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.core 4 0 2019-03-05 16:02:51.263
+!MESSAGE Error getting Java type 'org.springframework.security.saml.metadata.CachingMetadataManager'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/lu-auchan-gamme-api)[368]: java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:196)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2019-03-05 16:02:51.263
+!MESSAGE Resource '/lu-auchan-gamme-api' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:196)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.core 4 0 2019-03-05 16:02:51.264
+!MESSAGE Error getting Java type 'lu.auchan.gamme.api.config.CheckStoreAndFormatAspect'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/lu-auchan-gamme-api)[368]: java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:197)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2019-03-05 16:02:51.264
+!MESSAGE Resource '/lu-auchan-gamme-api' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:197)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.core 4 0 2019-03-05 16:02:51.266
+!MESSAGE Error getting Java type 'org.springframework.security.saml.metadata.MetadataGenerator'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/lu-auchan-gamme-api)[368]: java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:196)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2019-03-05 16:02:51.266
+!MESSAGE Resource '/lu-auchan-gamme-api' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:196)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.core 4 0 2019-03-05 16:02:51.267
+!MESSAGE Error getting Java type 'lu.auchan.gamme.api.config.CheckStoreAndFormatAspect'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/lu-auchan-gamme-api)[368]: java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:197)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2019-03-05 16:02:51.267
+!MESSAGE Resource '/lu-auchan-gamme-api' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:197)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.core 4 0 2019-03-05 16:02:51.270
+!MESSAGE Error getting Java type 'org.springframework.security.saml.metadata.MetadataDisplayFilter'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/lu-auchan-gamme-api)[368]: java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:196)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2019-03-05 16:02:51.270
+!MESSAGE Resource '/lu-auchan-gamme-api' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:196)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.core 4 0 2019-03-05 16:02:51.271
+!MESSAGE Error getting Java type 'lu.auchan.gamme.api.config.CheckStoreAndFormatAspect'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/lu-auchan-gamme-api)[368]: java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:197)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2019-03-05 16:02:51.271
+!MESSAGE Resource '/lu-auchan-gamme-api' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:197)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.core 4 0 2019-03-05 16:02:51.293
+!MESSAGE Error getting Java type 'org.springframework.security.web.authentication.SavedRequestAwareAuthenticationSuccessHandler'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/lu-auchan-gamme-api)[368]: java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:196)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2019-03-05 16:02:51.293
+!MESSAGE Resource '/lu-auchan-gamme-api' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:196)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.core 4 0 2019-03-05 16:02:51.294
+!MESSAGE Error getting Java type 'lu.auchan.gamme.api.config.CheckStoreAndFormatAspect'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/lu-auchan-gamme-api)[368]: java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:197)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2019-03-05 16:02:51.294
+!MESSAGE Resource '/lu-auchan-gamme-api' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:197)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.core 4 0 2019-03-05 16:02:51.296
+!MESSAGE Error getting Java type 'org.springframework.security.web.authentication.SimpleUrlAuthenticationFailureHandler'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/lu-auchan-gamme-api)[368]: java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:196)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2019-03-05 16:02:51.297
+!MESSAGE Resource '/lu-auchan-gamme-api' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:196)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.core 4 0 2019-03-05 16:02:51.298
+!MESSAGE Error getting Java type 'lu.auchan.gamme.api.config.CheckStoreAndFormatAspect'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/lu-auchan-gamme-api)[368]: java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:197)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2019-03-05 16:02:51.298
+!MESSAGE Resource '/lu-auchan-gamme-api' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:197)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.core 4 0 2019-03-05 16:02:51.299
+!MESSAGE Error getting Java type 'org.springframework.security.saml.SAMLWebSSOHoKProcessingFilter'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/lu-auchan-gamme-api)[368]: java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:196)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2019-03-05 16:02:51.300
+!MESSAGE Resource '/lu-auchan-gamme-api' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:196)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.core 4 0 2019-03-05 16:02:51.301
+!MESSAGE Error getting Java type 'lu.auchan.gamme.api.config.CheckStoreAndFormatAspect'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/lu-auchan-gamme-api)[368]: java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:197)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2019-03-05 16:02:51.301
+!MESSAGE Resource '/lu-auchan-gamme-api' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:197)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.core 4 0 2019-03-05 16:02:51.303
+!MESSAGE Error getting Java type 'org.springframework.security.saml.SAMLProcessingFilter'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/lu-auchan-gamme-api)[368]: java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:196)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2019-03-05 16:02:51.303
+!MESSAGE Resource '/lu-auchan-gamme-api' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:196)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.core 4 0 2019-03-05 16:02:51.304
+!MESSAGE Error getting Java type 'lu.auchan.gamme.api.config.CheckStoreAndFormatAspect'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/lu-auchan-gamme-api)[368]: java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:197)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2019-03-05 16:02:51.304
+!MESSAGE Resource '/lu-auchan-gamme-api' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:197)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.core 4 0 2019-03-05 16:02:51.306
+!MESSAGE Error getting Java type 'org.springframework.security.saml.metadata.MetadataGeneratorFilter'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/lu-auchan-gamme-api)[368]: java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:196)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2019-03-05 16:02:51.306
+!MESSAGE Resource '/lu-auchan-gamme-api' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:196)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.core 4 0 2019-03-05 16:02:51.307
+!MESSAGE Error getting Java type 'lu.auchan.gamme.api.config.CheckStoreAndFormatAspect'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/lu-auchan-gamme-api)[368]: java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:197)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2019-03-05 16:02:51.307
+!MESSAGE Resource '/lu-auchan-gamme-api' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:197)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.core 4 0 2019-03-05 16:02:51.309
+!MESSAGE Error getting Java type 'org.springframework.security.web.authentication.logout.SimpleUrlLogoutSuccessHandler'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/lu-auchan-gamme-api)[368]: java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:196)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2019-03-05 16:02:51.309
+!MESSAGE Resource '/lu-auchan-gamme-api' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:196)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.core 4 0 2019-03-05 16:02:51.310
+!MESSAGE Error getting Java type 'lu.auchan.gamme.api.config.CheckStoreAndFormatAspect'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/lu-auchan-gamme-api)[368]: java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:197)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2019-03-05 16:02:51.310
+!MESSAGE Resource '/lu-auchan-gamme-api' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:197)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.core 4 0 2019-03-05 16:02:51.311
+!MESSAGE Error getting Java type 'org.springframework.security.web.authentication.logout.SecurityContextLogoutHandler'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/lu-auchan-gamme-api)[368]: java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:196)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2019-03-05 16:02:51.311
+!MESSAGE Resource '/lu-auchan-gamme-api' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:196)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.core 4 0 2019-03-05 16:02:51.312
+!MESSAGE Error getting Java type 'lu.auchan.gamme.api.config.CheckStoreAndFormatAspect'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/lu-auchan-gamme-api)[368]: java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:197)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2019-03-05 16:02:51.312
+!MESSAGE Resource '/lu-auchan-gamme-api' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:197)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.core 4 0 2019-03-05 16:02:51.314
+!MESSAGE Error getting Java type 'org.springframework.security.saml.SAMLLogoutProcessingFilter'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/lu-auchan-gamme-api)[368]: java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:196)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2019-03-05 16:02:51.314
+!MESSAGE Resource '/lu-auchan-gamme-api' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:196)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.core 4 0 2019-03-05 16:02:51.316
+!MESSAGE Error getting Java type 'lu.auchan.gamme.api.config.CheckStoreAndFormatAspect'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/lu-auchan-gamme-api)[368]: java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:197)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2019-03-05 16:02:51.316
+!MESSAGE Resource '/lu-auchan-gamme-api' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:197)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.core 4 0 2019-03-05 16:02:51.317
+!MESSAGE Error getting Java type 'org.springframework.security.saml.SAMLLogoutFilter'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/lu-auchan-gamme-api)[368]: java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:196)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2019-03-05 16:02:51.318
+!MESSAGE Resource '/lu-auchan-gamme-api' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:196)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.core 4 0 2019-03-05 16:02:51.319
+!MESSAGE Error getting Java type 'lu.auchan.gamme.api.config.CheckStoreAndFormatAspect'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/lu-auchan-gamme-api)[368]: java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:197)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2019-03-05 16:02:51.319
+!MESSAGE Resource '/lu-auchan-gamme-api' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:197)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.core 4 0 2019-03-05 16:02:51.321
+!MESSAGE Error getting Java type 'org.springframework.security.saml.processor.HTTPArtifactBinding'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/lu-auchan-gamme-api)[368]: java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:196)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2019-03-05 16:02:51.321
+!MESSAGE Resource '/lu-auchan-gamme-api' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:196)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.core 4 0 2019-03-05 16:02:51.322
+!MESSAGE Error getting Java type 'lu.auchan.gamme.api.config.CheckStoreAndFormatAspect'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/lu-auchan-gamme-api)[368]: java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:197)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2019-03-05 16:02:51.322
+!MESSAGE Resource '/lu-auchan-gamme-api' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:197)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.core 4 0 2019-03-05 16:02:51.323
+!MESSAGE Error getting Java type 'org.springframework.security.saml.processor.HTTPSOAP11Binding'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/lu-auchan-gamme-api)[368]: java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:196)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2019-03-05 16:02:51.323
+!MESSAGE Resource '/lu-auchan-gamme-api' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:196)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.core 4 0 2019-03-05 16:02:51.324
+!MESSAGE Error getting Java type 'lu.auchan.gamme.api.config.CheckStoreAndFormatAspect'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/lu-auchan-gamme-api)[368]: java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:197)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2019-03-05 16:02:51.324
+!MESSAGE Resource '/lu-auchan-gamme-api' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:197)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.core 4 0 2019-03-05 16:02:51.347
+!MESSAGE Error getting Java type 'org.springframework.security.saml.processor.HTTPPostBinding'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/lu-auchan-gamme-api)[368]: java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:196)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2019-03-05 16:02:51.347
+!MESSAGE Resource '/lu-auchan-gamme-api' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:196)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.core 4 0 2019-03-05 16:02:51.348
+!MESSAGE Error getting Java type 'lu.auchan.gamme.api.config.CheckStoreAndFormatAspect'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/lu-auchan-gamme-api)[368]: java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:197)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2019-03-05 16:02:51.348
+!MESSAGE Resource '/lu-auchan-gamme-api' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:197)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.core 4 0 2019-03-05 16:02:51.349
+!MESSAGE Error getting Java type 'org.springframework.security.saml.processor.HTTPRedirectDeflateBinding'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/lu-auchan-gamme-api)[368]: java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:196)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2019-03-05 16:02:51.350
+!MESSAGE Resource '/lu-auchan-gamme-api' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:196)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.core 4 0 2019-03-05 16:02:51.350
+!MESSAGE Error getting Java type 'lu.auchan.gamme.api.config.CheckStoreAndFormatAspect'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/lu-auchan-gamme-api)[368]: java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:197)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2019-03-05 16:02:51.351
+!MESSAGE Resource '/lu-auchan-gamme-api' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:197)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.core 4 0 2019-03-05 16:02:51.352
+!MESSAGE Error getting Java type 'org.springframework.security.saml.processor.HTTPSOAP11Binding'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/lu-auchan-gamme-api)[368]: java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:196)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2019-03-05 16:02:51.352
+!MESSAGE Resource '/lu-auchan-gamme-api' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:196)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.core 4 0 2019-03-05 16:02:51.353
+!MESSAGE Error getting Java type 'lu.auchan.gamme.api.config.CheckStoreAndFormatAspect'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/lu-auchan-gamme-api)[368]: java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:197)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2019-03-05 16:02:51.353
+!MESSAGE Resource '/lu-auchan-gamme-api' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:197)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.core 4 0 2019-03-05 16:02:51.356
+!MESSAGE Error getting Java type 'org.springframework.security.saml.processor.HTTPPAOS11Binding'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/lu-auchan-gamme-api)[368]: java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:196)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2019-03-05 16:02:51.356
+!MESSAGE Resource '/lu-auchan-gamme-api' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:196)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.core 4 0 2019-03-05 16:02:51.357
+!MESSAGE Error getting Java type 'lu.auchan.gamme.api.config.CheckStoreAndFormatAspect'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/lu-auchan-gamme-api)[368]: java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:197)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2019-03-05 16:02:51.357
+!MESSAGE Resource '/lu-auchan-gamme-api' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:197)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.core 4 0 2019-03-05 16:02:51.359
+!MESSAGE Error getting Java type 'org.springframework.security.saml.processor.SAMLProcessorImpl'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/lu-auchan-gamme-api)[368]: java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:196)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2019-03-05 16:02:51.359
+!MESSAGE Resource '/lu-auchan-gamme-api' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:196)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.core 4 0 2019-03-05 16:02:51.360
+!MESSAGE Error getting Java type 'lu.auchan.gamme.api.config.CheckStoreAndFormatAspect'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/lu-auchan-gamme-api)[368]: java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:197)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2019-03-05 16:02:51.360
+!MESSAGE Resource '/lu-auchan-gamme-api' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:197)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.core 4 0 2019-03-05 16:02:51.361
+!MESSAGE Error getting Java type 'org.springframework.security.web.FilterChainProxy'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/lu-auchan-gamme-api)[368]: java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:196)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2019-03-05 16:02:51.361
+!MESSAGE Resource '/lu-auchan-gamme-api' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:196)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.core 4 0 2019-03-05 16:02:51.362
+!MESSAGE Error getting Java type 'lu.auchan.gamme.api.config.CheckStoreAndFormatAspect'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/lu-auchan-gamme-api)[368]: java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:197)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2019-03-05 16:02:51.363
+!MESSAGE Resource '/lu-auchan-gamme-api' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:197)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.core 4 0 2019-03-05 16:02:51.364
+!MESSAGE Error getting Java type 'org.springframework.security.authentication.AuthenticationManager'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/lu-auchan-gamme-api)[368]: java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:196)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2019-03-05 16:02:51.364
+!MESSAGE Resource '/lu-auchan-gamme-api' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:196)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.core 4 0 2019-03-05 16:02:51.365
+!MESSAGE Error getting Java type 'lu.auchan.gamme.api.config.CheckStoreAndFormatAspect'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/lu-auchan-gamme-api)[368]: java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:197)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2019-03-05 16:02:51.365
+!MESSAGE Resource '/lu-auchan-gamme-api' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:197)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.core 4 0 2019-03-05 16:02:51.366
+!MESSAGE Error getting Java type 'org.springframework.security.oauth2.provider.token.store.JwtAccessTokenConverter'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/lu-auchan-gamme-api)[368]: java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:196)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2019-03-05 16:02:51.366
+!MESSAGE Resource '/lu-auchan-gamme-api' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:196)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.core 4 0 2019-03-05 16:02:51.367
+!MESSAGE Error getting Java type 'lu.auchan.gamme.api.config.CheckStoreAndFormatAspect'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/lu-auchan-gamme-api)[368]: java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:197)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2019-03-05 16:02:51.367
+!MESSAGE Resource '/lu-auchan-gamme-api' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:197)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.core 4 0 2019-03-05 16:02:51.369
+!MESSAGE Error getting Java type 'org.springframework.security.oauth2.provider.token.DefaultTokenServices'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/lu-auchan-gamme-api)[368]: java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:196)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2019-03-05 16:02:51.369
+!MESSAGE Resource '/lu-auchan-gamme-api' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:196)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.core 4 0 2019-03-05 16:02:51.370
+!MESSAGE Error getting Java type 'lu.auchan.gamme.api.config.CheckStoreAndFormatAspect'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/lu-auchan-gamme-api)[368]: java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:197)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2019-03-05 16:02:51.370
+!MESSAGE Resource '/lu-auchan-gamme-api' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:197)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.core 4 0 2019-03-05 16:02:51.371
+!MESSAGE Error getting Java type 'org.springframework.security.oauth2.provider.token.TokenStore'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/lu-auchan-gamme-api)[368]: java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:196)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2019-03-05 16:02:51.371
+!MESSAGE Resource '/lu-auchan-gamme-api' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:196)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.core 4 0 2019-03-05 16:02:51.372
+!MESSAGE Error getting Java type 'lu.auchan.gamme.api.config.CheckStoreAndFormatAspect'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/lu-auchan-gamme-api)[368]: java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:197)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2019-03-05 16:02:51.372
+!MESSAGE Resource '/lu-auchan-gamme-api' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/lu-auchan-gamme-api' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:468)
+	at org.springframework.ide.eclipse.core.java.JdtUtils.getJavaType(JdtUtils.java:407)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBean(AopReferenceModelBuilderJob.java:197)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeans(AopReferenceModelBuilderJob.java:290)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForBeansConfig(AopReferenceModelBuilderJob.java:313)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopReferencesForFile(AopReferenceModelBuilderJob.java:367)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.buildAopModel(AopReferenceModelBuilderJob.java:464)
+	at org.springframework.ide.eclipse.aop.core.internal.model.builder.AopReferenceModelBuilderJob.run(AopReferenceModelBuilderJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 0 2019-03-05 16:07:02.766
+!MESSAGE Could not import project located at C:\Users\ogounaya\Downloads\EcomProjet\Signinup
+!STACK 0
+org.eclipse.ui.internal.wizards.datatransfer.CouldNotImportProjectException: Could not import project located at C:\Users\ogounaya\Downloads\EcomProjet\Signinup
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.toExistingOrNewProject(SmartImportJob.java:565)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.run(SmartImportJob.java:252)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:173)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:57)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:267)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:251)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.createOrImportProject(SmartImportJob.java:604)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.toExistingOrNewProject(SmartImportJob.java:552)
+	... 2 more
+!SESSION 2019-03-05 16:10:12.988 -----------------------------------------------
+eclipse.buildId=4.10.0.I20181206-0815
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2019-03-05 16:10:25.478
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-03-05 16:10:25.478
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@52cda4bd,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@40aaf656,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.jface.text 2 0 2019-03-05 16:10:34.740
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-03-05 16:10:34.774
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ogounaya'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.

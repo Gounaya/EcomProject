@@ -1,0 +1,266 @@
+2019-03-05 13:41:40,629 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2019-03-05 14:14:15,379 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-03-05 15:48:59,634 [Worker-21: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: lu.auchan.gamme:lu-auchan-gamme-parent:1.0.36.3 @ C:\Users\ogounaya\Documents\Capgemini\MyOffre\Auchan-Gamme\lu-auchan-gamme-parent\pom.xml.
+2019-03-05 15:50:15,125 [Worker-23: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: lu.auchan.gamme:lu-auchan-gamme-AuthenticationServer:1.0.36.3 @ C:\Users\ogounaya\Documents\Capgemini\MyOffre\Auchan-Gamme\lu-auchan-gamme-parent\lu-auchan-gamme-AuthenticationServer\pom.xml.
+2019-03-05 15:50:21,404 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-05 15:50:21,413 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-05 15:50:21,414 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-05 15:50:21,458 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-05 15:50:21,459 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ogounaya\Documents\Capgemini\MyOffre\Auchan-Gamme\lu-auchan-gamme-parent\lu-auchan-gamme-AuthenticationServer\src\test\resources
+2019-03-05 15:50:37,377 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-05 15:50:37,383 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-05 15:50:37,384 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-05 15:50:37,408 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-05 15:50:37,409 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ogounaya\Documents\Capgemini\MyOffre\Auchan-Gamme\lu-auchan-gamme-parent\lu-auchan-gamme-AuthenticationServer\src\test\resources
+2019-03-05 15:50:41,487 [Worker-23: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: lu.auchan.gamme:lu-auchan-gamme-api:1.0.36.3 @ C:\Users\ogounaya\Documents\Capgemini\MyOffre\Auchan-Gamme\lu-auchan-gamme-parent\lu-auchan-gamme-api\pom.xml.
+2019-03-05 15:50:50,412 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-05 15:50:50,413 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-05 15:50:50,414 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 9 resources
+2019-03-05 15:50:50,527 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-05 15:50:50,530 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 61 resources
+2019-03-05 15:50:54,584 [Worker-30: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/lu/auchan/gamme/lu-auchan-gamme-caching/1.0.36.3/lu-auchan-gamme-caching-1.0.36.3-sources.jar
+2019-03-05 15:50:54,608 [Worker-30: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for lu.auchan.gamme:lu-auchan-gamme-caching:1.0.36.3
+org.eclipse.core.runtime.CoreException: Could not resolve artifact lu.auchan.gamme:lu-auchan-gamme-caching:jar:sources:1.0.36.3
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:763) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:731) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:708) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:279) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:254) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:221) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:137) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1336) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:135) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) [org.eclipse.core.jobs_3.10.200.v20180912-1356.jar:na]
+2019-03-05 15:51:11,796 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-05 15:51:11,805 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-05 15:51:11,808 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 9 resources
+2019-03-05 15:51:11,905 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-05 15:51:12,037 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 61 resources
+2019-03-05 15:51:15,487 [Worker-16: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: lu.auchan.gamme:lu-auchan-gamme-caching:1.0.36.3 @ C:\Users\ogounaya\Documents\Capgemini\MyOffre\Auchan-Gamme\lu-auchan-gamme-parent\lu-auchan-gamme-caching\pom.xml.
+2019-03-05 15:51:18,405 [Worker-16: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: lu.auchan.gamme:lu-auchan-gamme-api:1.0.36.3 @ C:\Users\ogounaya\Documents\Capgemini\MyOffre\Auchan-Gamme\lu-auchan-gamme-parent\lu-auchan-gamme-api\pom.xml.
+2019-03-05 15:51:20,427 [Worker-16: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/lu-auchan-gamme-caching: lu.auchan.gamme:lu-auchan-gamme-caching:1.0.36.3 with classifier  to /lu-auchan-gamme-caching/target/classes
+2019-03-05 15:51:26,054 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-05 15:51:26,056 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-05 15:51:26,056 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-05 15:51:26,095 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-05 15:51:26,095 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ogounaya\Documents\Capgemini\MyOffre\Auchan-Gamme\lu-auchan-gamme-parent\lu-auchan-gamme-caching\src\test\resources
+2019-03-05 15:51:40,658 [Worker-8: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/lu-auchan-gamme-caching: lu.auchan.gamme:lu-auchan-gamme-caching:1.0.36.3 with classifier  to /lu-auchan-gamme-caching/target/classes
+2019-03-05 15:51:41,557 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-05 15:51:41,565 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-05 15:51:41,568 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 9 resources
+2019-03-05 15:51:41,713 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-05 15:51:41,803 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 61 resources
+2019-03-05 15:51:44,598 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-05 15:51:44,602 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-05 15:51:44,603 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-05 15:51:44,655 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-05 15:51:44,655 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ogounaya\Documents\Capgemini\MyOffre\Auchan-Gamme\lu-auchan-gamme-parent\lu-auchan-gamme-caching\src\test\resources
+2019-03-05 15:51:56,537 [Worker-18: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: lu.auchan.gamme:lu-auchan-gamme-component:1.0.36.3 @ C:\Users\ogounaya\Documents\Capgemini\MyOffre\Auchan-Gamme\lu-auchan-gamme-parent\lu-auchan-gamme-component\pom.xml.
+2019-03-05 15:51:57,618 [Worker-18: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: lu.auchan.gamme:lu-auchan-gamme-AuthenticationServer:1.0.36.3 @ C:\Users\ogounaya\Documents\Capgemini\MyOffre\Auchan-Gamme\lu-auchan-gamme-parent\lu-auchan-gamme-AuthenticationServer\pom.xml.
+2019-03-05 15:51:57,790 [Worker-18: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/lu-auchan-gamme-component: lu.auchan.gamme:lu-auchan-gamme-component:1.0.36.3 with classifier  to /lu-auchan-gamme-component/target/classes
+2019-03-05 15:51:58,231 [Worker-18: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: lu.auchan.gamme:lu-auchan-gamme-caching:1.0.36.3 @ C:\Users\ogounaya\Documents\Capgemini\MyOffre\Auchan-Gamme\lu-auchan-gamme-parent\lu-auchan-gamme-caching\pom.xml.
+2019-03-05 15:51:58,248 [Worker-18: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/lu-auchan-gamme-component: lu.auchan.gamme:lu-auchan-gamme-component:1.0.36.3 with classifier  to /lu-auchan-gamme-component/target/classes
+2019-03-05 15:51:58,511 [Worker-18: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: lu.auchan.gamme:lu-auchan-gamme-api:1.0.36.3 @ C:\Users\ogounaya\Documents\Capgemini\MyOffre\Auchan-Gamme\lu-auchan-gamme-parent\lu-auchan-gamme-api\pom.xml.
+2019-03-05 15:51:59,619 [Worker-18: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/lu-auchan-gamme-component: lu.auchan.gamme:lu-auchan-gamme-component:1.0.36.3 with classifier  to /lu-auchan-gamme-component/target/classes
+2019-03-05 15:51:59,749 [Worker-18: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/lu-auchan-gamme-caching: lu.auchan.gamme:lu-auchan-gamme-caching:1.0.36.3 with classifier  to /lu-auchan-gamme-caching/target/classes
+2019-03-05 15:52:05,965 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-05 15:52:05,966 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-05 15:52:05,967 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-03-05 15:52:06,023 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-05 15:52:06,023 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ogounaya\Documents\Capgemini\MyOffre\Auchan-Gamme\lu-auchan-gamme-parent\lu-auchan-gamme-component\src\test\resources
+2019-03-05 15:52:30,937 [Worker-25: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/lu-auchan-gamme-component: lu.auchan.gamme:lu-auchan-gamme-component:1.0.36.3 with classifier  to /lu-auchan-gamme-component/target/classes
+2019-03-05 15:52:31,278 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-05 15:52:31,283 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-05 15:52:31,285 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-05 15:52:31,326 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-05 15:52:31,326 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ogounaya\Documents\Capgemini\MyOffre\Auchan-Gamme\lu-auchan-gamme-parent\lu-auchan-gamme-AuthenticationServer\src\test\resources
+2019-03-05 15:52:50,379 [Worker-20: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/lu-auchan-gamme-component: lu.auchan.gamme:lu-auchan-gamme-component:1.0.36.3 with classifier  to /lu-auchan-gamme-component/target/classes
+2019-03-05 15:52:50,473 [Worker-20: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/lu-auchan-gamme-caching: lu.auchan.gamme:lu-auchan-gamme-caching:1.0.36.3 with classifier  to /lu-auchan-gamme-caching/target/classes
+2019-03-05 15:52:51,193 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-05 15:52:51,202 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-05 15:52:51,204 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 9 resources
+2019-03-05 15:52:51,284 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-05 15:52:51,392 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 61 resources
+2019-03-05 15:52:54,694 [Worker-20: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/lu-auchan-gamme-component: lu.auchan.gamme:lu-auchan-gamme-component:1.0.36.3 with classifier  to /lu-auchan-gamme-component/target/classes
+2019-03-05 15:52:54,937 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-05 15:52:54,941 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-05 15:52:54,942 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-05 15:52:54,971 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-05 15:52:54,972 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ogounaya\Documents\Capgemini\MyOffre\Auchan-Gamme\lu-auchan-gamme-parent\lu-auchan-gamme-caching\src\test\resources
+2019-03-05 15:53:03,039 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-05 15:53:03,045 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-05 15:53:03,046 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-05 15:53:03,056 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-05 15:53:03,057 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ogounaya\Documents\Capgemini\MyOffre\Auchan-Gamme\lu-auchan-gamme-parent\lu-auchan-gamme-AuthenticationServer\src\test\resources
+2019-03-05 15:53:05,605 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-05 15:53:05,614 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-05 15:53:05,617 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 9 resources
+2019-03-05 15:53:05,639 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-05 15:53:05,727 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 61 resources
+2019-03-05 15:53:09,425 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-05 15:53:09,432 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-05 15:53:09,433 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-03-05 15:53:09,481 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-05 15:53:09,482 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ogounaya\Documents\Capgemini\MyOffre\Auchan-Gamme\lu-auchan-gamme-parent\lu-auchan-gamme-component\src\test\resources
+2019-03-05 15:53:12,053 [Worker-22: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: lu.auchan.gamme:lu-auchan-gamme-resources:1.0.36.3 @ C:\Users\ogounaya\Documents\Capgemini\MyOffre\Auchan-Gamme\lu-auchan-gamme-parent\lu-auchan-gamme-resources\pom.xml.
+2019-03-05 15:53:12,624 [Worker-22: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: lu.auchan.gamme:lu-auchan-gamme-api:1.0.36.3 @ C:\Users\ogounaya\Documents\Capgemini\MyOffre\Auchan-Gamme\lu-auchan-gamme-parent\lu-auchan-gamme-api\pom.xml.
+2019-03-05 15:53:14,868 [Worker-22: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/lu-auchan-gamme-component: lu.auchan.gamme:lu-auchan-gamme-component:1.0.36.3 with classifier  to /lu-auchan-gamme-component/target/classes
+2019-03-05 15:53:15,108 [Worker-22: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/lu-auchan-gamme-caching: lu.auchan.gamme:lu-auchan-gamme-caching:1.0.36.3 with classifier  to /lu-auchan-gamme-caching/target/classes
+2019-03-05 15:53:15,267 [Worker-22: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/lu-auchan-gamme-resources: lu.auchan.gamme:lu-auchan-gamme-resources:1.0.36.3 with classifier  to /lu-auchan-gamme-resources/target/classes
+2019-03-05 15:53:21,722 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-05 15:53:21,727 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-03-05 15:53:21,806 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 444 resources
+2019-03-05 15:53:22,895 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-05 15:53:22,895 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ogounaya\Documents\Capgemini\MyOffre\Auchan-Gamme\lu-auchan-gamme-parent\lu-auchan-gamme-resources\src\test\resources
+2019-03-05 15:53:26,652 [Worker-8: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/lu-auchan-gamme-component: lu.auchan.gamme:lu-auchan-gamme-component:1.0.36.3 with classifier  to /lu-auchan-gamme-component/target/classes
+2019-03-05 15:53:26,724 [Worker-8: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/lu-auchan-gamme-caching: lu.auchan.gamme:lu-auchan-gamme-caching:1.0.36.3 with classifier  to /lu-auchan-gamme-caching/target/classes
+2019-03-05 15:53:27,141 [Worker-8: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/lu-auchan-gamme-resources: lu.auchan.gamme:lu-auchan-gamme-resources:1.0.36.3 with classifier  to /lu-auchan-gamme-resources/target/classes
+2019-03-05 15:53:28,371 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-05 15:53:28,372 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-05 15:53:28,373 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-05 15:53:28,378 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-05 15:53:28,379 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-05 15:53:32,663 [Worker-8: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: lu.auchan.gamme:lu-auchan-gamme-services:1.0.36.3 @ C:\Users\ogounaya\Documents\Capgemini\MyOffre\Auchan-Gamme\lu-auchan-gamme-parent\lu-auchan-gamme-services\pom.xml.
+2019-03-05 15:53:35,433 [Worker-8: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/lu-auchan-gamme-component: lu.auchan.gamme:lu-auchan-gamme-component:1.0.36.3 with classifier  to /lu-auchan-gamme-component/target/classes
+2019-03-05 15:53:35,577 [Worker-8: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/lu-auchan-gamme-caching: lu.auchan.gamme:lu-auchan-gamme-caching:1.0.36.3 with classifier  to /lu-auchan-gamme-caching/target/classes
+2019-03-05 15:53:36,423 [Worker-8: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: lu.auchan.gamme:lu-auchan-gamme-api:1.0.36.3 @ C:\Users\ogounaya\Documents\Capgemini\MyOffre\Auchan-Gamme\lu-auchan-gamme-parent\lu-auchan-gamme-api\pom.xml.
+2019-03-05 15:53:37,204 [Worker-8: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/lu-auchan-gamme-services: lu.auchan.gamme:lu-auchan-gamme-services:1.0.36.3 with classifier  to /lu-auchan-gamme-services/target/classes
+2019-03-05 15:53:37,204 [Worker-8: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/lu-auchan-gamme-component: lu.auchan.gamme:lu-auchan-gamme-component:1.0.36.3 with classifier  to /lu-auchan-gamme-component/target/classes
+2019-03-05 15:53:37,327 [Worker-8: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/lu-auchan-gamme-caching: lu.auchan.gamme:lu-auchan-gamme-caching:1.0.36.3 with classifier  to /lu-auchan-gamme-caching/target/classes
+2019-03-05 15:53:37,567 [Worker-8: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/lu-auchan-gamme-resources: lu.auchan.gamme:lu-auchan-gamme-resources:1.0.36.3 with classifier  to /lu-auchan-gamme-resources/target/classes
+2019-03-05 15:53:43,856 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-05 15:53:43,856 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-05 15:53:43,857 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-05 15:53:43,881 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-05 15:53:43,881 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ogounaya\Documents\Capgemini\MyOffre\Auchan-Gamme\lu-auchan-gamme-parent\lu-auchan-gamme-services\src\test\resources
+2019-03-05 15:53:59,724 [Worker-22: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/lu-auchan-gamme-services: lu.auchan.gamme:lu-auchan-gamme-services:1.0.36.3 with classifier  to /lu-auchan-gamme-services/target/classes
+2019-03-05 15:53:59,725 [Worker-22: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/lu-auchan-gamme-component: lu.auchan.gamme:lu-auchan-gamme-component:1.0.36.3 with classifier  to /lu-auchan-gamme-component/target/classes
+2019-03-05 15:53:59,806 [Worker-22: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/lu-auchan-gamme-caching: lu.auchan.gamme:lu-auchan-gamme-caching:1.0.36.3 with classifier  to /lu-auchan-gamme-caching/target/classes
+2019-03-05 15:53:59,924 [Worker-22: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/lu-auchan-gamme-resources: lu.auchan.gamme:lu-auchan-gamme-resources:1.0.36.3 with classifier  to /lu-auchan-gamme-resources/target/classes
+2019-03-05 15:54:00,455 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-05 15:54:00,455 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-05 15:54:00,456 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-05 15:54:00,457 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-05 15:54:00,458 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-05 15:54:09,539 [Worker-15: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: lu.auchan.gamme:lu-auchan-gamme-valueObject:1.0.36.3 @ C:\Users\ogounaya\Documents\Capgemini\MyOffre\Auchan-Gamme\lu-auchan-gamme-parent\lu-auchan-gamme-valueObject\pom.xml.
+2019-03-05 15:54:10,340 [Worker-15: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: lu.auchan.gamme:lu-auchan-gamme-component:1.0.36.3 @ C:\Users\ogounaya\Documents\Capgemini\MyOffre\Auchan-Gamme\lu-auchan-gamme-parent\lu-auchan-gamme-component\pom.xml.
+2019-03-05 15:54:10,786 [Worker-15: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/lu-auchan-gamme-valueObject: lu.auchan.gamme:lu-auchan-gamme-valueObject:1.0.36.3 with classifier  to /lu-auchan-gamme-valueObject/target/classes
+2019-03-05 15:54:11,362 [Worker-15: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: lu.auchan.gamme:lu-auchan-gamme-AuthenticationServer:1.0.36.3 @ C:\Users\ogounaya\Documents\Capgemini\MyOffre\Auchan-Gamme\lu-auchan-gamme-parent\lu-auchan-gamme-AuthenticationServer\pom.xml.
+2019-03-05 15:54:11,500 [Worker-15: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/lu-auchan-gamme-component: lu.auchan.gamme:lu-auchan-gamme-component:1.0.36.3 with classifier  to /lu-auchan-gamme-component/target/classes
+2019-03-05 15:54:11,503 [Worker-15: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/lu-auchan-gamme-valueObject: lu.auchan.gamme:lu-auchan-gamme-valueObject:1.0.36.3 with classifier  to /lu-auchan-gamme-valueObject/target/classes
+2019-03-05 15:54:11,945 [Worker-15: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: lu.auchan.gamme:lu-auchan-gamme-caching:1.0.36.3 @ C:\Users\ogounaya\Documents\Capgemini\MyOffre\Auchan-Gamme\lu-auchan-gamme-parent\lu-auchan-gamme-caching\pom.xml.
+2019-03-05 15:54:11,956 [Worker-15: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/lu-auchan-gamme-component: lu.auchan.gamme:lu-auchan-gamme-component:1.0.36.3 with classifier  to /lu-auchan-gamme-component/target/classes
+2019-03-05 15:54:11,956 [Worker-15: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/lu-auchan-gamme-valueObject: lu.auchan.gamme:lu-auchan-gamme-valueObject:1.0.36.3 with classifier  to /lu-auchan-gamme-valueObject/target/classes
+2019-03-05 15:54:12,257 [Worker-15: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: lu.auchan.gamme:lu-auchan-gamme-services:1.0.36.3 @ C:\Users\ogounaya\Documents\Capgemini\MyOffre\Auchan-Gamme\lu-auchan-gamme-parent\lu-auchan-gamme-services\pom.xml.
+2019-03-05 15:54:12,716 [Worker-15: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/lu-auchan-gamme-component: lu.auchan.gamme:lu-auchan-gamme-component:1.0.36.3 with classifier  to /lu-auchan-gamme-component/target/classes
+2019-03-05 15:54:12,751 [Worker-15: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/lu-auchan-gamme-valueObject: lu.auchan.gamme:lu-auchan-gamme-valueObject:1.0.36.3 with classifier  to /lu-auchan-gamme-valueObject/target/classes
+2019-03-05 15:54:12,869 [Worker-15: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/lu-auchan-gamme-caching: lu.auchan.gamme:lu-auchan-gamme-caching:1.0.36.3 with classifier  to /lu-auchan-gamme-caching/target/classes
+2019-03-05 15:54:13,387 [Worker-15: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: lu.auchan.gamme:lu-auchan-gamme-api:1.0.36.3 @ C:\Users\ogounaya\Documents\Capgemini\MyOffre\Auchan-Gamme\lu-auchan-gamme-parent\lu-auchan-gamme-api\pom.xml.
+2019-03-05 15:54:13,955 [Worker-15: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/lu-auchan-gamme-services: lu.auchan.gamme:lu-auchan-gamme-services:1.0.36.3 with classifier  to /lu-auchan-gamme-services/target/classes
+2019-03-05 15:54:13,956 [Worker-15: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/lu-auchan-gamme-component: lu.auchan.gamme:lu-auchan-gamme-component:1.0.36.3 with classifier  to /lu-auchan-gamme-component/target/classes
+2019-03-05 15:54:13,959 [Worker-15: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/lu-auchan-gamme-valueObject: lu.auchan.gamme:lu-auchan-gamme-valueObject:1.0.36.3 with classifier  to /lu-auchan-gamme-valueObject/target/classes
+2019-03-05 15:54:14,034 [Worker-15: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/lu-auchan-gamme-caching: lu.auchan.gamme:lu-auchan-gamme-caching:1.0.36.3 with classifier  to /lu-auchan-gamme-caching/target/classes
+2019-03-05 15:54:14,135 [Worker-15: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/lu-auchan-gamme-resources: lu.auchan.gamme:lu-auchan-gamme-resources:1.0.36.3 with classifier  to /lu-auchan-gamme-resources/target/classes
+2019-03-05 15:54:14,829 [Worker-15: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/lu-auchan-gamme-component: lu.auchan.gamme:lu-auchan-gamme-component:1.0.36.3 with classifier  to /lu-auchan-gamme-component/target/classes
+2019-03-05 15:54:14,832 [Worker-15: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/lu-auchan-gamme-valueObject: lu.auchan.gamme:lu-auchan-gamme-valueObject:1.0.36.3 with classifier  to /lu-auchan-gamme-valueObject/target/classes
+2019-03-05 15:54:14,962 [Worker-15: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/lu-auchan-gamme-caching: lu.auchan.gamme:lu-auchan-gamme-caching:1.0.36.3 with classifier  to /lu-auchan-gamme-caching/target/classes
+2019-03-05 15:54:15,616 [Worker-15: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/lu-auchan-gamme-valueObject: lu.auchan.gamme:lu-auchan-gamme-valueObject:1.0.36.3 with classifier  to /lu-auchan-gamme-valueObject/target/classes
+2019-03-05 15:54:16,649 [Worker-15: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/lu-auchan-gamme-component: lu.auchan.gamme:lu-auchan-gamme-component:1.0.36.3 with classifier  to /lu-auchan-gamme-component/target/classes
+2019-03-05 15:54:16,662 [Worker-15: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/lu-auchan-gamme-valueObject: lu.auchan.gamme:lu-auchan-gamme-valueObject:1.0.36.3 with classifier  to /lu-auchan-gamme-valueObject/target/classes
+2019-03-05 15:54:19,434 [Worker-15: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/lu-auchan-gamme-services: lu.auchan.gamme:lu-auchan-gamme-services:1.0.36.3 with classifier  to /lu-auchan-gamme-services/target/classes
+2019-03-05 15:54:19,434 [Worker-15: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/lu-auchan-gamme-component: lu.auchan.gamme:lu-auchan-gamme-component:1.0.36.3 with classifier  to /lu-auchan-gamme-component/target/classes
+2019-03-05 15:54:19,447 [Worker-15: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/lu-auchan-gamme-valueObject: lu.auchan.gamme:lu-auchan-gamme-valueObject:1.0.36.3 with classifier  to /lu-auchan-gamme-valueObject/target/classes
+2019-03-05 15:54:19,585 [Worker-15: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/lu-auchan-gamme-caching: lu.auchan.gamme:lu-auchan-gamme-caching:1.0.36.3 with classifier  to /lu-auchan-gamme-caching/target/classes
+2019-03-05 15:54:19,890 [Worker-15: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/lu-auchan-gamme-resources: lu.auchan.gamme:lu-auchan-gamme-resources:1.0.36.3 with classifier  to /lu-auchan-gamme-resources/target/classes
+2019-03-05 15:54:21,566 [Worker-15: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/lu-auchan-gamme-component: lu.auchan.gamme:lu-auchan-gamme-component:1.0.36.3 with classifier  to /lu-auchan-gamme-component/target/classes
+2019-03-05 15:54:21,580 [Worker-15: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/lu-auchan-gamme-valueObject: lu.auchan.gamme:lu-auchan-gamme-valueObject:1.0.36.3 with classifier  to /lu-auchan-gamme-valueObject/target/classes
+2019-03-05 15:54:26,306 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-05 15:54:26,307 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-05 15:54:26,315 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-03-05 15:54:26,317 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-05 15:54:26,318 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ogounaya\Documents\Capgemini\MyOffre\Auchan-Gamme\lu-auchan-gamme-parent\lu-auchan-gamme-valueObject\src\test\resources
+2019-03-05 15:54:48,077 [Worker-15: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/lu-auchan-gamme-component: lu.auchan.gamme:lu-auchan-gamme-component:1.0.36.3 with classifier  to /lu-auchan-gamme-component/target/classes
+2019-03-05 15:54:48,104 [Worker-15: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/lu-auchan-gamme-valueObject: lu.auchan.gamme:lu-auchan-gamme-valueObject:1.0.36.3 with classifier  to /lu-auchan-gamme-valueObject/target/classes
+2019-03-05 15:54:48,348 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-05 15:54:48,349 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-05 15:54:48,349 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-05 15:54:48,350 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-05 15:54:48,351 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ogounaya\Documents\Capgemini\MyOffre\Auchan-Gamme\lu-auchan-gamme-parent\lu-auchan-gamme-AuthenticationServer\src\test\resources
+2019-03-05 15:54:59,286 [Worker-26: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/lu-auchan-gamme-services: lu.auchan.gamme:lu-auchan-gamme-services:1.0.36.3 with classifier  to /lu-auchan-gamme-services/target/classes
+2019-03-05 15:54:59,286 [Worker-26: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/lu-auchan-gamme-component: lu.auchan.gamme:lu-auchan-gamme-component:1.0.36.3 with classifier  to /lu-auchan-gamme-component/target/classes
+2019-03-05 15:54:59,295 [Worker-26: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/lu-auchan-gamme-valueObject: lu.auchan.gamme:lu-auchan-gamme-valueObject:1.0.36.3 with classifier  to /lu-auchan-gamme-valueObject/target/classes
+2019-03-05 15:54:59,386 [Worker-26: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/lu-auchan-gamme-caching: lu.auchan.gamme:lu-auchan-gamme-caching:1.0.36.3 with classifier  to /lu-auchan-gamme-caching/target/classes
+2019-03-05 15:54:59,562 [Worker-26: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/lu-auchan-gamme-resources: lu.auchan.gamme:lu-auchan-gamme-resources:1.0.36.3 with classifier  to /lu-auchan-gamme-resources/target/classes
+2019-03-05 15:55:00,151 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-05 15:55:00,152 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-05 15:55:00,152 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-05 15:55:00,154 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-05 15:55:00,154 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-05 15:55:01,591 [Worker-24: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/lu-auchan-gamme-component: lu.auchan.gamme:lu-auchan-gamme-component:1.0.36.3 with classifier  to /lu-auchan-gamme-component/target/classes
+2019-03-05 15:55:01,595 [Worker-24: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/lu-auchan-gamme-valueObject: lu.auchan.gamme:lu-auchan-gamme-valueObject:1.0.36.3 with classifier  to /lu-auchan-gamme-valueObject/target/classes
+2019-03-05 15:55:01,801 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-05 15:55:01,802 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-05 15:55:01,803 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-05 15:55:01,805 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-05 15:55:01,805 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ogounaya\Documents\Capgemini\MyOffre\Auchan-Gamme\lu-auchan-gamme-parent\lu-auchan-gamme-caching\src\test\resources
+2019-03-05 15:55:04,429 [Worker-18: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/lu-auchan-gamme-valueObject: lu.auchan.gamme:lu-auchan-gamme-valueObject:1.0.36.3 with classifier  to /lu-auchan-gamme-valueObject/target/classes
+2019-03-05 15:55:04,565 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-05 15:55:04,565 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-05 15:55:04,565 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-05 15:55:04,568 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-05 15:55:04,568 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ogounaya\Documents\Capgemini\MyOffre\Auchan-Gamme\lu-auchan-gamme-parent\lu-auchan-gamme-component\src\test\resources
+2019-03-05 15:55:12,741 [Worker-28: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/lu-auchan-gamme-component: lu.auchan.gamme:lu-auchan-gamme-component:1.0.36.3 with classifier  to /lu-auchan-gamme-component/target/classes
+2019-03-05 15:55:12,760 [Worker-28: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/lu-auchan-gamme-valueObject: lu.auchan.gamme:lu-auchan-gamme-valueObject:1.0.36.3 with classifier  to /lu-auchan-gamme-valueObject/target/classes
+2019-03-05 15:55:12,854 [Worker-28: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/lu-auchan-gamme-caching: lu.auchan.gamme:lu-auchan-gamme-caching:1.0.36.3 with classifier  to /lu-auchan-gamme-caching/target/classes
+2019-03-05 15:55:13,199 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-05 15:55:13,200 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-05 15:55:13,200 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-05 15:55:13,202 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-05 15:55:13,202 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ogounaya\Documents\Capgemini\MyOffre\Auchan-Gamme\lu-auchan-gamme-parent\lu-auchan-gamme-services\src\test\resources
+2019-03-05 16:01:54,001 [Worker-34: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com:Signinup:0.0.1-SNAPSHOT @ C:\Users\ogounaya\Documents\catho\Spring Boot Project\git\Signinup\pom.xml.
+2019-03-05 16:01:56,069 [Worker-31: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com:Signinup:0.0.1-SNAPSHOT @ C:\Users\ogounaya\Documents\catho\Spring Boot Project\git\Signinup\pom.xml.
+2019-03-05 16:02:00,405 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-05 16:02:00,406 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-05 16:02:00,459 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2019-03-05 16:02:00,619 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-05 16:02:00,620 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ogounaya\Documents\catho\Spring Boot Project\git\Signinup\src\test\resources
+2019-03-05 16:02:06,418 [Worker-31: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com:Signinup:0.0.1-SNAPSHOT @ C:\Users\ogounaya\Documents\catho\Spring Boot Project\git\Signinup\pom.xml.
+2019-03-05 16:02:09,140 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-05 16:02:09,157 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-05 16:02:09,188 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2019-03-05 16:02:09,293 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-05 16:02:09,294 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ogounaya\Documents\catho\Spring Boot Project\git\Signinup\src\test\resources
+2019-03-05 16:02:12,963 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-05 16:02:12,974 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-05 16:02:12,981 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2019-03-05 16:02:13,005 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-05 16:02:13,005 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ogounaya\Documents\catho\Spring Boot Project\git\Signinup\src\test\resources
+2019-03-05 16:02:49,847 [Worker-31: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: lu.auchan.gamme:lu-auchan-gamme-services:1.0.36.3 @ C:\Users\ogounaya\Documents\Capgemini\MyOffre\Auchan-Gamme\lu-auchan-gamme-parent\lu-auchan-gamme-services\pom.xml.
+2019-03-05 16:02:52,225 [Worker-31: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/lu-auchan-gamme-valueObject: lu.auchan.gamme:lu-auchan-gamme-valueObject:1.0.36.3 with classifier  to /lu-auchan-gamme-valueObject/target/classes
+2019-03-05 16:04:19,605 [Worker-27: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com:Signinup:0.0.1-SNAPSHOT @ C:\Users\ogounaya\Documents\catho\Spring Boot Project\git\Signinup\pom.xml.
+2019-03-05 16:04:23,525 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-05 16:04:23,525 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-05 16:04:23,544 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2019-03-05 16:04:23,784 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-05 16:04:23,784 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ogounaya\Documents\catho\Spring Boot Project\git\Signinup\src\test\resources
+2019-03-05 16:04:25,229 [Worker-34: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com:Signinup:0.0.1-SNAPSHOT @ C:\Users\ogounaya\Documents\catho\Spring Boot Project\git\Signinup\pom.xml.
+2019-03-05 16:04:27,055 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-05 16:04:27,067 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-05 16:04:27,084 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2019-03-05 16:04:27,135 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-05 16:04:27,135 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ogounaya\Documents\catho\Spring Boot Project\git\Signinup\src\test\resources
+2019-03-05 16:04:29,503 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-05 16:04:29,511 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-05 16:04:29,516 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2019-03-05 16:04:29,561 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-05 16:04:29,561 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ogounaya\Documents\catho\Spring Boot Project\git\Signinup\src\test\resources
+2019-03-05 16:09:19,799 [Worker-39: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-03-05 16:10:54,055 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
